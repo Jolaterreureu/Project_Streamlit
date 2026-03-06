@@ -8,3 +8,4 @@ st.header("Its about cars!")
 if st.button("Do you like cars"):
     st.text("CARS " * 10)
     st.text("YEAHH")
+    st.text("hhhhh")
