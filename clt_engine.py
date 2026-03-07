@@ -5,7 +5,7 @@ def generate_population(dist_index):
     size = 1000000
     if dist_index == 'Uniform U(0, 1)':
         return np.random.rand(size), 'Uniform U(0,1)'
-    elif dist_index == 'Chisquare (df=1)':
+    elif dist_index == 'Chi-square (df=1)':
         return np.random.chisquare(1, size), 'Chisquare (df=1)'
     elif dist_index == 'Gamma (2, 2)':
         return np.random.gamma(2, 2, size), 'Gamma (2, 2)'
